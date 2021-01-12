@@ -1,0 +1,19 @@
+body{
+    background-color: #495464;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #f4f4f2;
+}
+
+.header{
+    padding-top: 5%;
+    size: 10rem;
+}
+
+.img-fluid{
+    padding-top: 5%;
+    align-self: center;
+    max-width: 50%;
+}

@@ -4,11 +4,12 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
+    padding-top: 5%;
+
     color: #f4f4f2;
 }
 
 .header{
-    padding-top: 5%;
     size: 10rem;
 }
 
@@ -20,6 +21,9 @@ h1, h2, h3, h4, h5, h6{
 
 .textbox{
     align-self: center;
-    padding-top: 5%;
-    
+}
+
+p{
+    padding: 2.5% 0;
+    color: #e8e8e8;
 }

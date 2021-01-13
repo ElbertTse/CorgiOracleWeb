@@ -14,15 +14,7 @@ function getFortune(){
                 const res = JSON.parse(data);
                 const message = res.fortune;
                 console.log(message);
-
-                $("p").innerText(message);
             })
         }
     });
 }
-
-$("button").on("click", function(){
-    console.log("Clicked");
-    getFortune();
-});
-
